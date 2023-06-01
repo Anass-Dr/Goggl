@@ -16,7 +16,7 @@ function App() {
   return (
     <Routes>
       <Route
-        path="/search"
+        path="/"
         element={
           <>
             <div className={`${darkTheme ? "dark " : ""}`}>
@@ -31,7 +31,7 @@ function App() {
           </>
         }
       ></Route>
-      <Route path="/" exact element={<Navigate to="/search" />}></Route>
+      {/* <Route path="/" exact element={<Navigate to="/search" />}></Route> */}
     </Routes>
   );
 }
