@@ -23,7 +23,7 @@ const SearchContextProvider = ({ children, currTab }) => {
         method: "GET",
         headers: {
           "X-RapidAPI-Key":
-            "799dd63172mshf1f812ae6d99e86p10e0b7jsn3b03fed6feff",
+            "2f69d80c63msh6d6de6994a163dep18659djsne14f9ff9d247",
           "X-RapidAPI-Host": "google-search72.p.rapidapi.com",
         },
       };
