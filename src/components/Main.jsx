@@ -42,8 +42,8 @@ const Image = ({ src, text }) => {
 const Images = ({ results }) => {
   return (
     <div className="p-5 grid grid-cols-3 xl:grid-cols-5 gap-5">
-      {results.map((obj) => (
-        <Image src={obj.url} text={obj.title} />
+      {results.map((obj, idx) => (
+        <Image key={idx} src={obj.url} text={obj.title} />
       ))}
     </div>
   );
