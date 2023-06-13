@@ -9,7 +9,9 @@ const Post = ({ link, title }) => {
         className="dark:text-white font-thin text-sm overflow-hidden text-ellipsis"
         href={link}
       >
-        <span>{link}</span>
+        <span className="inline-block w-60 whitespace-nowrap overflow-x-hidden text-ellipsis">
+          {link}
+        </span>
         <h1 className="text-blue-400 font-normal text-xl hover:underline">
           {title}
         </h1>

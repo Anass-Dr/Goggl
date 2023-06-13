@@ -7,6 +7,6 @@
     @apply border-b-2 border-blue-600 pb-2 !important;
   }
   .result-div {
-    @apply px-48 py-6;
+    @apply px-5 md:px-48 py-6;
   }
 }
